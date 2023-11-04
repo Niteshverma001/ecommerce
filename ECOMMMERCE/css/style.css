@@ -1,3 +1,6 @@
+@import "font-awesome";
+
+
 * {
   margin: 0;
   padding: 0;
@@ -149,6 +152,7 @@ html {
 }
 .home-brand .card img,
 .home-categories .card img,
+.wishlist .card img,
 .home-new-arrivals .card img {
   object-fit: contain;
   height: 170px;
@@ -157,16 +161,19 @@ html {
 }
 .home-brand .card .card-text,
 .home-categories .card .card-text,
+.wishlist .card .card-text,
 .home-new-arrivals .card .card-text {
   text-align: center;
 }
 .home-brand .card .card-text h3,
 .home-categories .card .card-text h3,
+.wishlist .card .card-text h3,
 .home-new-arrivals .card .card-text h3 {
   line-height: 0px;
 }
 .home-brand .card .card-text p,
 .home-categories .card .card-text p,
+.wishlist .card .card-text p,
 .home-new-arrivals .card .card-text p {
   padding-top: 14px;
   font-size: 14px;
@@ -207,6 +214,132 @@ html {
   border: 3px solid black;
   border-radius: 11px;
 }
+
+/* whislist code here  */
+.wishlist {
+  background-color: rgba(236, 233, 233, 0.922);
+  height: auto;
+  margin-top: 6px;
+  border-radius: 20px;
+}
+.wishlist .card {
+  padding: 0 27px;
+  padding-top: 11px;
+  margin: 14px 25px;
+  background-color: rgb(255, 255, 255);
+  width: 230px;
+  height: 280px;
+  border-radius: 35px;
+}
+.wishlist .heading-wishlist h2{
+  text-transform: uppercase;
+  padding: 0 25px;
+  text-align: left;
+  font-size: 35px;
+  padding-top: 35px;
+}
+.wishlist .wishlist-cards-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding-bottom: 30px;
+}
+.wishlist .card .wishlist-btn{
+  margin: 9px 9px;
+}
+button {
+	border: none;
+	background: #7d7d7d;
+	color: #f2f2f2;
+	padding: 10px 35px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+  overflow:hidden
+}
+
+/* button:before {
+	font-family: FontAwesome;
+	content:"\f07a";
+	position: absolute;
+	top: 11px;
+	left: -30px;
+	transition: all 200ms ease;
+} */
+
+/* button:hover:before {
+	left: 7px;
+} */
+
+button:hover {
+  box-shadow: 1px 3px 8px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  footer section */
 .footer-item {
